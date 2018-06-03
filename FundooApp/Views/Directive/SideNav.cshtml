@@ -1,0 +1,113 @@
+﻿@*@model System.Collections.Generic.List<tblNote>
+    @using FundooApp.Data.Models;*@
+@{
+    Layout = "~/Views/Shared/TempLayout.cshtml";
+}
+<style>
+    .listgrid {
+        width: 60%;
+    }
+</style>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#search').click(function () {
+            $('#search').css('background-color', 'white')
+        })
+
+
+        //$("#opener").on('click', function () {
+        //    $("#sidenav").css('width','250px')
+        //    $("#page").css('marginLeft', '250px')
+
+        //})
+
+    });
+</script>
+<body ng-controller="NotesController" style="max-height:100%;">
+    <div style="border:none;visibility:initial;overflow:hidden;max-height:100%;" layout="column">
+        <md-sidenav id="sidenav" ng-style="sidenav" md-sidenav-left="left" md-component-id="left" md-disable-backdrop md-whiteframe="4" style="margin-top:65px;transition: 0.5s;border:none;max-height:100%;background-color:gainsboro;">
+            <md-menu>
+                <md-menu-item>
+                    <md-button>
+                        <md-icon md-svg-icon="~/Images/ic_lightbulb_outline_black_24px.svg"></md-icon>
+                        <strong> @Html.ActionLink("Notes", "GetNotes", "Notes")</strong>
+                    </md-button>
+                </md-menu-item>
+
+                <md-menu-item>
+                    <md-button>
+                        <md-icon md-svg-icon="~/Images/download.svg"></md-icon>
+                        <strong> @Html.ActionLink("Reminder", "Reminder", "Notes")</strong>
+                    </md-button>
+                </md-menu-item>
+            </md-menu>
+            <hr />
+            @*<div style="padding-left:25px">
+                    <label>Labels</label>
+                    <md-button style="margin-left:70px">ADD</md-button>
+                </div>
+                <hr />*@
+
+            <md-menu>
+                <md-menu-item>
+                    <md-button>
+                        <md-icon md-svg-icon="~/Images/ic_archive_black_24px.svg"> </md-icon>
+                        <strong>@Html.ActionLink("Archive", "Archive", "Notes")</strong>
+                    </md-button>
+                </md-menu-item>
+
+                <md-menu-item>
+                    <md-button>
+                        <md-icon md-svg-icon="~/Images/ic_delete_black_24px.svg"></md-icon>
+                        <strong> @Html.ActionLink("Trash", "Trash", "Notes")</strong>
+                    </md-button>
+                </md-menu-item>
+            </md-menu>
+
+
+
+        </md-sidenav>
+    </div>
+    <div ng-style="toolbar" style="background-color:#fb0;height:65px;padding-top:8px" layout="row">
+        <md-button @*style="background-color:#fb0"*@ ng-click="toggleLeft() " id="opener">
+            <md-icon md-svg-icon="~/Images/menu.svg"></md-icon>
+        </md-button>
+        <label style="font-weight:700 ; font-size:30px; font-family:  'Product Sans',Arial,sans-serif;margin-right:50px;">Keep</label>
+
+        <span flex></span>
+        <button style="border:none; background:transparent" @*ng-class="{active: layout = 'list'}"*@ ng-click="listgrid()">
+            <md-icon md-svg-icon="~/Images/ic_view_stream_black_24px.svg"></md-icon>
+
+        </button>
+
+        <md-menu-bar>
+            <md-menu>
+                <button style="border:none; background:transparent;" ng-click="$mdMenu.open()">
+                    <img src="@TempData["ImageUrl"]" style="height:40PX;border-radius:800px"/>
+                </button>
+                <md-menu-content style="height:100%;width:100%">
+
+
+                    <div style="padding-left:70px">
+                        <b>@TempData["Email"]</b>
+                    </div>
+
+                    <div>
+                        <img src="@TempData["ImageUrl"]" class="img-thumbnail"  style="height:100px;margin-left:100px;outline:none;border-radius:1000px" ng-click="showPromptUpdate($event)" />
+                    </div>
+
+                   
+                   
+                    <md-button class="md-raised md-primary" type="submit">
+                        <strong> @Html.ActionLink("Logout", "Logout", "Account")</strong>
+                    </md-button>
+
+
+                </md-menu-content>
+            </md-menu>
+        </md-menu-bar>
+    </div>
+
+</body>
+
+

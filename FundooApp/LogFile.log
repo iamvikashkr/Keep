@@ -1,0 +1,179 @@
+23-04-2018 19:42:33:System.NullReferenceException: Object reference not set to an instance of an object.
+   at FundooApp.Controllers.NotesController.<GetNotes>d__2.MoveNext() in D:\FundooApp\FundooApp\FundooApp\Controllers\NotesController.cs:line 27
+24-04-2018 12:02:12:System.NullReferenceException: Object reference not set to an instance of an object.
+   at FundooApp.Controllers.AccountController.<ConsumeApi>d__8.MoveNext() in D:\FundooApp\FundooApp\FundooApp\Controllers\AccountController.cs:line 137
+24-04-2018 12:04:06:System.NullReferenceException: Object reference not set to an instance of an object.
+   at FundooApp.Controllers.AccountController.<Token>d__6.MoveNext() in D:\FundooApp\FundooApp\FundooApp\Controllers\AccountController.cs:line 61
+24-04-2018 12:04:09:System.NullReferenceException: Object reference not set to an instance of an object.
+   at FundooApp.Controllers.AccountController.<ConsumeApi>d__8.MoveNext() in D:\FundooApp\FundooApp\FundooApp\Controllers\AccountController.cs:line 139
+24-04-2018 12:17:57:System.NullReferenceException: Object reference not set to an instance of an object.
+   at FundooApp.Controllers.AccountController.<ConsumeApi>d__8.MoveNext() in D:\FundooApp\FundooApp\FundooApp\Controllers\AccountController.cs:line 142
+24-04-2018 14:53:57:Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at FundooApp.Controllers.AccountController.<ConsumeApi>d__8.MoveNext() in D:\FundooApp\FundooApp\FundooApp\Controllers\AccountController.cs:line 147
+24-04-2018 14:54:06:Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at FundooApp.Controllers.AccountController.<ConsumeApi>d__8.MoveNext() in D:\FundooApp\FundooApp\FundooApp\Controllers\AccountController.cs:line 147
+24-04-2018 14:55:08:Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at FundooApp.Controllers.AccountController.<ConsumeApi>d__8.MoveNext() in D:\FundooApp\FundooApp\FundooApp\Controllers\AccountController.cs:line 147
+24-04-2018 15:06:40:System.UriFormatException: Invalid URI: Invalid port specified.
+   at System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind)
+   at System.Uri..ctor(String uriString)
+   at FundooApp.Controllers.AccountController.<ConsumeApi>d__8.MoveNext() in D:\FundooApp\FundooApp\FundooApp\Controllers\AccountController.cs:line 139
+24-04-2018 16:00:52:System.NullReferenceException: Object reference not set to an instance of an object.
+   at FundooApp.Controllers.NotesController.<List>d__9.MoveNext() in D:\FundooApp\FundooApp\FundooApp\Controllers\NotesController.cs:line 166
+24-04-2018 17:22:33:System.NullReferenceException: Object reference not set to an instance of an object.
+   at FundooApp.Controllers.NotesController.<List>d__9.MoveNext() in D:\FundooApp\FundooApp\FundooApp\Controllers\NotesController.cs:line 165
+03-05-2018 17:12:31:System.NullReferenceException: Object reference not set to an instance of an object.
+   at FundooApp.Controllers.NotesController.<GetNotes>d__3.MoveNext() in D:\FundooApp\FundooApp\FundooApp\Controllers\NotesController.cs:line 53
+03-05-2018 17:24:15:System.NullReferenceException: Object reference not set to an instance of an object.
+   at FundooApp.Controllers.NotesController.<GetNotes>d__3.MoveNext() in D:\FundooApp\FundooApp\FundooApp\Controllers\NotesController.cs:line 53
+03-05-2018 17:25:27:System.NullReferenceException: Object reference not set to an instance of an object.
+   at FundooApp.Controllers.NotesController.<GetNotes>d__3.MoveNext() in D:\FundooApp\FundooApp\FundooApp\Controllers\NotesController.cs:line 53
+03-05-2018 17:25:55:System.NullReferenceException: Object reference not set to an instance of an object.
+   at FundooApp.Controllers.NotesController.<GetNotes>d__3.MoveNext() in D:\FundooApp\FundooApp\FundooApp\Controllers\NotesController.cs:line 53
+03-05-2018 17:26:41:System.NullReferenceException: Object reference not set to an instance of an object.
+   at FundooApp.Controllers.NotesController.<GetNotes>d__3.MoveNext() in D:\FundooApp\FundooApp\FundooApp\Controllers\NotesController.cs:line 53
+03-05-2018 17:40:10:System.NullReferenceException: Object reference not set to an instance of an object.
+   at FundooApp.Controllers.NotesController.<GetNotes>d__3.MoveNext() in D:\FundooApp\FundooApp\FundooApp\Controllers\NotesController.cs:line 53
+03-05-2018 18:48:06:Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON object (e.g. {"name":"value"}) into type 'System.Collections.Generic.List`1[FundooApp.Data.Models.tblNote]' because the type requires a JSON array (e.g. [1,2,3]) to deserialize correctly.
+To fix this error either change the JSON to a JSON array (e.g. [1,2,3]) or change the deserialized type so that it is a normal .NET type (e.g. not a primitive type like integer, not a collection type like an array or List<T>) that can be deserialized from a JSON object. JsonObjectAttribute can also be added to the type to force it to deserialize from a JSON object.
+Path 'message', line 1, position 11.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at FundooApp.Controllers.AccountController.<ConsumeApi>d__8.MoveNext() in D:\FundooApp\FundooApp\FundooApp\Controllers\AccountController.cs:line 149
+03-05-2018 18:49:33:Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON object (e.g. {"name":"value"}) into type 'System.Collections.Generic.List`1[FundooApp.Data.Models.tblNote]' because the type requires a JSON array (e.g. [1,2,3]) to deserialize correctly.
+To fix this error either change the JSON to a JSON array (e.g. [1,2,3]) or change the deserialized type so that it is a normal .NET type (e.g. not a primitive type like integer, not a collection type like an array or List<T>) that can be deserialized from a JSON object. JsonObjectAttribute can also be added to the type to force it to deserialize from a JSON object.
+Path 'message', line 1, position 11.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at FundooApp.Controllers.AccountController.<ConsumeApi>d__8.MoveNext() in D:\FundooApp\FundooApp\FundooApp\Controllers\AccountController.cs:line 149
+04-05-2018 13:24:15:System.NullReferenceException: Object reference not set to an instance of an object.
+   at FundooApp.Controllers.NotesController.<GetNotes>d__4.MoveNext() in D:\FundooApp\FundooApp\FundooApp\Controllers\NotesController.cs:line 27
+04-05-2018 13:24:31:System.NullReferenceException: Object reference not set to an instance of an object.
+   at FundooApp.Controllers.NotesController.<GetNotes>d__4.MoveNext() in D:\FundooApp\FundooApp\FundooApp\Controllers\NotesController.cs:line 27
+04-05-2018 13:25:46:System.NullReferenceException: Object reference not set to an instance of an object.
+   at FundooApp.Controllers.NotesController.<GetNotes>d__4.MoveNext() in D:\FundooApp\FundooApp\FundooApp\Controllers\NotesController.cs:line 27
+04-05-2018 13:27:48:System.NullReferenceException: Object reference not set to an instance of an object.
+   at FundooApp.Controllers.NotesController.<GetNotes>d__4.MoveNext() in D:\FundooApp\FundooApp\FundooApp\Controllers\NotesController.cs:line 29
+05-05-2018 13:03:41:System.NullReferenceException: Object reference not set to an instance of an object.
+   at FundooApp.Controllers.NotesController.<GetNotes>d__4.MoveNext() in D:\FundooApp\FundooApp\FundooApp\Controllers\NotesController.cs:line 31
+05-05-2018 13:15:52:System.NullReferenceException: Object reference not set to an instance of an object.
+   at FundooApp.Controllers.NotesController.<GetNotes>d__4.MoveNext() in D:\FundooApp\FundooApp\FundooApp\Controllers\NotesController.cs:line 28
+05-05-2018 13:21:36:System.NullReferenceException: Object reference not set to an instance of an object.
+   at FundooApp.Controllers.NotesController.<GetNotes>d__2.MoveNext() in D:\FundooApp\FundooApp\FundooApp\Controllers\NotesController.cs:line 28
+05-05-2018 13:25:16:System.NullReferenceException: Object reference not set to an instance of an object.
+   at FundooApp.Controllers.NotesController.<List>d__9.MoveNext() in D:\FundooApp\FundooApp\FundooApp\Controllers\NotesController.cs:line 173
+05-05-2018 13:25:32:System.NullReferenceException: Object reference not set to an instance of an object.
+   at FundooApp.Controllers.NotesController.<GetNotes>d__2.MoveNext() in D:\FundooApp\FundooApp\FundooApp\Controllers\NotesController.cs:line 28
+07-05-2018 12:50:43:System.NullReferenceException: Object reference not set to an instance of an object.
+   at FundooApp.Controllers.NotesController.<GetNotes>d__2.MoveNext() in D:\FundooApp\FundooApp\FundooApp\Controllers\NotesController.cs:line 28
+07-05-2018 12:56:04:System.NullReferenceException: Object reference not set to an instance of an object.
+   at FundooApp.Controllers.NotesController.<GetNotes>d__2.MoveNext() in D:\FundooApp\FundooApp\FundooApp\Controllers\NotesController.cs:line 28
+07-05-2018 13:00:28:Newtonsoft.Json.JsonSerializationException: Cannot deserialize the current JSON object (e.g. {"name":"value"}) into type 'System.Collections.Generic.List`1[FundooApp.Data.Models.tblNote]' because the type requires a JSON array (e.g. [1,2,3]) to deserialize correctly.
+To fix this error either change the JSON to a JSON array (e.g. [1,2,3]) or change the deserialized type so that it is a normal .NET type (e.g. not a primitive type like integer, not a collection type like an array or List<T>) that can be deserialized from a JSON object. JsonObjectAttribute can also be added to the type to force it to deserialize from a JSON object.
+Path 'message', line 1, position 11.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at FundooApp.Controllers.AccountController.<ConsumeApi>d__8.MoveNext() in D:\FundooApp\FundooApp\FundooApp\Controllers\AccountController.cs:line 148
+07-05-2018 16:09:19:System.NullReferenceException: Object reference not set to an instance of an object.
+   at FundooApp.Controllers.NotesController.<GetNotes>d__3.MoveNext() in D:\FundooApp\FundooApp\FundooApp\Controllers\NotesController.cs:line 52
+07-05-2018 16:13:12:System.NullReferenceException: Object reference not set to an instance of an object.
+   at FundooApp.Controllers.NotesController.<GetNotes>d__3.MoveNext() in D:\FundooApp\FundooApp\FundooApp\Controllers\NotesController.cs:line 52
+07-05-2018 16:15:09:System.NullReferenceException: Object reference not set to an instance of an object.
+   at FundooApp.Controllers.NotesController.<GetNotes>d__3.MoveNext() in D:\FundooApp\FundooApp\FundooApp\Controllers\NotesController.cs:line 52
+07-05-2018 16:17:27:System.NullReferenceException: Object reference not set to an instance of an object.
+   at FundooApp.Controllers.NotesController.<GetNotes>d__3.MoveNext() in D:\FundooApp\FundooApp\FundooApp\Controllers\NotesController.cs:line 52
+07-05-2018 16:26:47:System.NullReferenceException: Object reference not set to an instance of an object.
+   at FundooApp.Controllers.NotesController.<GetNotes>d__3.MoveNext() in D:\FundooApp\FundooApp\FundooApp\Controllers\NotesController.cs:line 52
+07-05-2018 16:28:44:System.NullReferenceException: Object reference not set to an instance of an object.
+   at FundooApp.Controllers.NotesController.<GetNotes>d__3.MoveNext() in D:\FundooApp\FundooApp\FundooApp\Controllers\NotesController.cs:line 52
+07-05-2018 16:34:16:System.NullReferenceException: Object reference not set to an instance of an object.
+   at FundooApp.Controllers.NotesController.<GetNotes>d__3.MoveNext() in D:\FundooApp\FundooApp\FundooApp\Controllers\NotesController.cs:line 52
+07-05-2018 16:34:26:System.NullReferenceException: Object reference not set to an instance of an object.
+   at FundooApp.Controllers.NotesController.<GetNotes>d__3.MoveNext() in D:\FundooApp\FundooApp\FundooApp\Controllers\NotesController.cs:line 52
+07-05-2018 16:36:08:System.NullReferenceException: Object reference not set to an instance of an object.
+   at FundooApp.Controllers.NotesController.<GetNotes>d__3.MoveNext() in D:\FundooApp\FundooApp\FundooApp\Controllers\NotesController.cs:line 52
+07-05-2018 16:38:41:System.NullReferenceException: Object reference not set to an instance of an object.
+   at FundooApp.Controllers.NotesController.<GetNotes>d__3.MoveNext() in D:\FundooApp\FundooApp\FundooApp\Controllers\NotesController.cs:line 52
+07-05-2018 16:44:27:System.NullReferenceException: Object reference not set to an instance of an object.
+   at FundooApp.Controllers.NotesController.<GetNotes>d__3.MoveNext() in D:\FundooApp\FundooApp\FundooApp\Controllers\NotesController.cs:line 52
+07-05-2018 16:46:50:System.NullReferenceException: Object reference not set to an instance of an object.
+   at FundooApp.Controllers.NotesController.<GetNotes>d__3.MoveNext() in D:\FundooApp\FundooApp\FundooApp\Controllers\NotesController.cs:line 52
+07-05-2018 16:47:04:System.NullReferenceException: Object reference not set to an instance of an object.
+   at FundooApp.Controllers.NotesController.<GetNotes>d__3.MoveNext() in D:\FundooApp\FundooApp\FundooApp\Controllers\NotesController.cs:line 52
+07-05-2018 16:47:42:System.NullReferenceException: Object reference not set to an instance of an object.
+   at FundooApp.Controllers.NotesController.<GetNotes>d__3.MoveNext() in D:\FundooApp\FundooApp\FundooApp\Controllers\NotesController.cs:line 52
+07-05-2018 16:51:43:System.NullReferenceException: Object reference not set to an instance of an object.
+   at FundooApp.Controllers.NotesController.<GetNotes>d__3.MoveNext() in D:\FundooApp\FundooApp\FundooApp\Controllers\NotesController.cs:line 52
+07-05-2018 16:52:07:System.NullReferenceException: Object reference not set to an instance of an object.
+   at FundooApp.Controllers.NotesController.<GetNotes>d__3.MoveNext() in D:\FundooApp\FundooApp\FundooApp\Controllers\NotesController.cs:line 52
+07-05-2018 16:55:14:System.NullReferenceException: Object reference not set to an instance of an object.
+   at FundooApp.Controllers.NotesController.<GetNotes>d__3.MoveNext() in D:\FundooApp\FundooApp\FundooApp\Controllers\NotesController.cs:line 52
+07-05-2018 16:56:21:System.NullReferenceException: Object reference not set to an instance of an object.
+   at FundooApp.Controllers.NotesController.<GetNotes>d__3.MoveNext() in D:\FundooApp\FundooApp\FundooApp\Controllers\NotesController.cs:line 52
+07-05-2018 16:56:49:System.NullReferenceException: Object reference not set to an instance of an object.
+   at FundooApp.Controllers.NotesController.<GetNotes>d__3.MoveNext() in D:\FundooApp\FundooApp\FundooApp\Controllers\NotesController.cs:line 52
+07-05-2018 16:57:14:System.NullReferenceException: Object reference not set to an instance of an object.
+   at FundooApp.Controllers.NotesController.<GetNotes>d__3.MoveNext() in D:\FundooApp\FundooApp\FundooApp\Controllers\NotesController.cs:line 52
+07-05-2018 17:05:12:System.NullReferenceException: Object reference not set to an instance of an object.
+   at FundooApp.Controllers.NotesController.<GetNotes>d__3.MoveNext() in D:\FundooApp\FundooApp\FundooApp\Controllers\NotesController.cs:line 52
+07-05-2018 17:11:16:System.NullReferenceException: Object reference not set to an instance of an object.
+   at FundooApp.Controllers.NotesController.<GetNotes>d__3.MoveNext() in D:\FundooApp\FundooApp\FundooApp\Controllers\NotesController.cs:line 52
+07-05-2018 17:22:05:System.NullReferenceException: Object reference not set to an instance of an object.
+   at FundooApp.Controllers.NotesController.<GetNotes>d__3.MoveNext() in D:\FundooApp\FundooApp\FundooApp\Controllers\NotesController.cs:line 52
+07-05-2018 17:22:30:System.NullReferenceException: Object reference not set to an instance of an object.
+   at FundooApp.Controllers.NotesController.<GetNotes>d__3.MoveNext() in D:\FundooApp\FundooApp\FundooApp\Controllers\NotesController.cs:line 52
+07-05-2018 17:25:49:System.NullReferenceException: Object reference not set to an instance of an object.
+   at FundooApp.Controllers.NotesController.<GetNotes>d__3.MoveNext() in D:\FundooApp\FundooApp\FundooApp\Controllers\NotesController.cs:line 52
+07-05-2018 17:36:54:System.NullReferenceException: Object reference not set to an instance of an object.
+   at FundooApp.Controllers.NotesController.<GetNotes>d__5.MoveNext() in D:\FundooApp\FundooApp\FundooApp\Controllers\NotesController.cs:line 52
+07-05-2018 17:44:28:System.NullReferenceException: Object reference not set to an instance of an object.
+   at FundooApp.Controllers.NotesController.<Archive>d__7.MoveNext() in D:\FundooApp\FundooApp\FundooApp\Controllers\NotesController.cs:line 97
+07-05-2018 18:06:52:System.NullReferenceException: Object reference not set to an instance of an object.
+   at FundooApp.Controllers.NotesController.<Archive>d__7.MoveNext() in D:\FundooApp\FundooApp\FundooApp\Controllers\NotesController.cs:line 97
+07-05-2018 18:11:34:System.NullReferenceException: Object reference not set to an instance of an object.
+   at FundooApp.Controllers.NotesController.<Reminder>d__8.MoveNext() in D:\FundooApp\FundooApp\FundooApp\Controllers\NotesController.cs:line 119
+07-05-2018 18:32:55:System.NullReferenceException: Object reference not set to an instance of an object.
+   at FundooApp.Controllers.NotesController.<Reminder>d__8.MoveNext() in D:\FundooApp\FundooApp\FundooApp\Controllers\NotesController.cs:line 119
+07-05-2018 18:33:34:System.NullReferenceException: Object reference not set to an instance of an object.
+   at FundooApp.Controllers.NotesController.<GetNotes>d__4.MoveNext() in D:\FundooApp\FundooApp\FundooApp\Controllers\NotesController.cs:line 28
+08-05-2018 10:16:29:System.NullReferenceException: Object reference not set to an instance of an object.
+   at FundooApp.Controllers.NotesController.<Reminder>d__8.MoveNext() in D:\FundooApp\FundooApp\FundooApp\Controllers\NotesController.cs:line 119
